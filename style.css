@@ -4,26 +4,81 @@ body, html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-size: small; 
     font-family: arial,sans-serif;
     background: #fff;
 }
 
-ul {
+ul  {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+  
+}
+
+ul a {
+    text-decoration: none;
 }
  
 li{
     display: inline;
 }
 
-.top-nav-right {
-    float: right;
-}
-.topleft {
-    padding-left: 15px
+.top-nav-left{
+    
 }
 
-.test
+.top-nav-right {
+    float: right;
+    padding-right: 15px;
+    
+}
+
+.topright {
+    padding-left: 15px;
+}
+
+.topleft {
+    padding-left: 15px;
+}
+
+.top-nav-right a img {
+    opacity: 0.6;
+    width: 30px;
+    height: 30px;
+   
+}
+
+.top-nav-right a img:hover{
+    opacity: 1;
+}
+
+#SignButton { 
+    color: #fff;    
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+
+.main {
+    text-align: center;
+}
+
+
+
+.googlelogos {
+    margin:auto;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+.googlelogos img {
+    
+}
