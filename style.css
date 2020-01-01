@@ -1,7 +1,13 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
 body, html {
     height: 100%;
-    margin: 0;
+    
 }
+
 
 body {
     margin: 0;
@@ -11,10 +17,7 @@ body {
     background: #fff;
 }
 
-ul  {
-    list-style-type: none;
-  
-}
+
 
 ul a {
     text-decoration: none;
@@ -25,29 +28,50 @@ li{
 }
 
 .top-nav-left{
-    
+    padding-left: 15px;
+    display: block;
 }
 
 .top-nav-right {
     float: right;
-    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 15px 2px 0 19px;
+    position: relative;
+    height: 40px;
     
 }
 
-.topright {
-    padding-left: 15px;
-}
+
 
 .topleft {
-    padding-left: 15px;
+    padding: 15px 2px 0 19px;
+    position: relative;
+    float: left; /* aitas About ja Store alla poole panna */
+    opacity: 0.75;
+    text-decoration: none;
+    color:black;
+    text-align: center;
 }
 
-.top-nav-right a img {
-    opacity: 0.6;
+.topright {
+    color:black ;
+    align-items: center;
+    margin: 10px;
+}
+
+header :hover {
+    text-decoration: underline;
+}
+
+#apps {
+    opacity: .55;
     width: 30px;
     height: 30px;
-   
-}
+    margin: 0 auto;
+}   
 
 .top-nav-right a img:hover{
     opacity: 1;
@@ -66,7 +90,10 @@ li{
     line-height: 28px;
     padding: 0 12px;
     border-radius: 2px;
+    
 }
+
+
 
 .main {
     text-align: center;
