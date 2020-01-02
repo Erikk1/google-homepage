@@ -106,8 +106,91 @@ header :hover {
     padding-top: 140px;
     padding-bottom: 20px;
 }
-.googlelogos img {
-    
+
+.searchbarposition {
+    background: #fff;
+    display:flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+   /*outline-offset: -2px;  #proovi seda , lisab boxile effekti */ 
+}
+
+.searchbarposition:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+::placeholder {
+    padding-inline-start: 48px;
+    bottom : 0;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    height: 44px;
+    left: 0px;
+    line-height: 35px; /* place holder teksti k6rgus */
+    margin: auto 0;
+    overflow: hidden;
+    position: absolute;
+    right: 44px;
+    text-align: initial;
+    text-overflow: ellipsis;
+    top: 0;
+    user-select: none;
+    vertical-align: middle;
+    visibility: inherit;
+    white-space: nowrap;
+}
+
+.searchbar {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    padding: 0;
+    color: rgba (0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font: 16px arial, sans-serif;
+    line-height:  34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+
+}
+
+.find-icon {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png");
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 14px;
+    margin-right: 13px;
+    opacity: 0.6;
+}
+
+.mic-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+    margin: auto;
+    margin-right: 16px;
 }
 
 .googlelucky {
