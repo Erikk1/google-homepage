@@ -218,3 +218,74 @@ header :hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
+
+
+.footclass {
+    border-bottom: 1px solid #e4e4e4;
+    
+}
+
+
+
+
+.fof {
+    
+    margin-left: 30px;
+    text-align: left;
+    padding-left: 27px;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    line-height: 40px;
+
+
+}
+
+
+
+
+
+.footbox {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    display: block;
+    
+}
+
+.bot-foot-left {
+    margin-left: 30px;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.botleft {
+    
+    float: left; /* floatib vasakule ja j2tab teksti alla nurka  */
+    text-decoration: none;
+    color: #5f6368;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+}
+
+.bot-foot-right {
+    float: right;
+    padding-right: 27px;
+}
+
+
+.botright {
+    margin: 0 !important;
+    font-size: 13px;
+    display: inline-block;
+    text-decoration: none;
+    color: #5f6368;
+    white-space: nowrap;
+    
+}
